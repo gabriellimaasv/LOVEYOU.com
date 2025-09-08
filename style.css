@@ -1,0 +1,251 @@
+/* Fundo */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #001f3f, #0074D9, #7FDBFF);
+  overflow-x: hidden;
+  color: white;
+}
+
+/* Cartões das seções */
+.card {
+  background: rgba(0, 0, 50, 0.6);
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Animações de aparecer */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Lista de tópicos */
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+li {
+  margin: 10px 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.carta-container {
+  display: inline-block;
+}
+
+
+.carta-container {
+  text-align: center;
+}
+
+.botao-carta {
+  background-color: #ffb6c1;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+.botao-carta:hover {
+  background-color: #ff8da1;
+}
+
+.carta-fechada {
+  display: none;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 500px;
+  color: #fff;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+.carta-fechada h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffecec;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.carta-fechada ul {
+  list-style: none;
+  padding: 0;
+}
+
+.carta-fechada li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+
+
+
+/* Galeria de fotos */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+  background-color: #0d1b3d;
+  flex-wrap: wrap;
+}
+
+.foto {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+
+.foto img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.foto p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+
+/* Calendário */
+input[type="date"] {
+  margin-top: 15px;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  background: white;
+  color: #001f3f;
+}
+
+.data-romantica {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(to right, #ff7eb3, #ff758c);
+  border-radius: 30px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 2px #000;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(4px);
+  margin-top: 20px;
+}
+
+
+.secao-nosso-dia {
+  background-color: #0d1b3d;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.secao-nosso-dia h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffb6c1;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.secao-nosso-dia p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.foto {
+  width: 300px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 6px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  backdrop-filter: blur(4px);
+}
+
+.foto img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+
+
+/* Contador estilizado */
+.contador {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 15px;
+  background: rgba(255,255,255,0.2);
+  padding: 15px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+/* Corações caindo no fundo */
+.hearts {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.heart {
+  position: absolute;
+  top: -20px;
+  color: rgba(255,255,255,0.5);
+  font-size: 20px;
+  animation: cair linear infinite;
+}
+@keyframes cair {
+  from { transform: translateY(-20px) rotate(0deg); }
+  to { transform: translateY(110vh) rotate(360deg); }
+}
